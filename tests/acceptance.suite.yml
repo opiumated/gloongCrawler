@@ -1,0 +1,20 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: 'https://gloo.ng'
+            window_size: false
+            browser: 'chrome'
+        - \Helper\Acceptance
+env:
+    large-screen:
+         modules:
+            config:
+                WebDriver:
+                    window_size: maximize

@@ -1,0 +1,22 @@
+
+PageObjects
+ - Login
+ - Register
+ - ForgotPassword
+ - Reset Password
+ - Shipping
+ - Payment Methods
+ - Customer Credit
+ - Gift Card
+
+
+Cest Files
+ - Cart
+    - Add to Cart
+    - Remove from Cart
+    - Empty Cart
+    - Increment Cart
+ - Checkout
+    - Place Order
+ - Dashboard
+

@@ -1,0 +1,15 @@
+{
+    "name": "gloo/tests",
+    "description": "A set of tests for gloo.ng web application to reduce regression",
+    "type": "project",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "David Umoh",
+            "email": "engineering@gloo.ng"
+        }
+    ],
+    "require": {
+        "codeception/codeception":"2.3.*"
+    }
+}
